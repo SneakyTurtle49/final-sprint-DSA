@@ -1,0 +1,15 @@
+<!-- templates/enter-numbers.html -->
+<!DOCTYPE html>
+<html>
+<head><title>Enter Numbers</title></head>
+<body>
+<h2>Enter numbers (comma-separated):</h2>
+<form action="/process-numbers" method="post">
+    <input type="text" name="numbers" placeholder="e.g., 7,3,9,1,5" required />
+    <button type="submit">Submit</button>
+</form>
+<form action="/previous-trees" method="get">
+    <button type="submit">Show Previous</button>
+</form>
+</body>
+</html>
